@@ -1,0 +1,58 @@
+CREATING, READING AND WRITING
+
+=> DataFrame: table of data
+*IMPORT PANDAS:
+import pandas as pd
+
+*CREATE A DATAFRAME:
+pd.DataFram({'Bob:[1,2,3], Sue:[4,5,6]},
+	    index = ['product A', 'PrductB'])
+
+* READ CSV FILE:
+pd.read_csv("link")
+
+=> Series: list of data
+
+===>INDEXING, SELECTING & ASSIGNING
+loc, iloc
+
+===>SUMMARY FUNCTIONS AND MAPS
+*Summary functions:
+describe()
+mean()
+unique()
+value_counts()
+
+*Maps
+map()
+apply()
++
+idxmax
+median()
+unique()
+value_counts()
+mean()
+sum()
+
+===> GROUPING AND SORTING:
+
+=>GROUPING
+groupby()
+agg()
+index()
+rest_idex()
+
+=>SORTING
+sort_values
+sort_index
+
+
+
+
+
+
+
+
+
+
+
